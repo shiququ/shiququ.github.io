@@ -6,6 +6,10 @@ HTMLElement.prototype.wrap = function(wrapper) {
   wrapper.appendChild(this);
 };
 
+$(document).ready(function() {
+  wrapImageWithFancyBox();
+});
+
 NexT.utils = {
 
   /**
