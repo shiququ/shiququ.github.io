@@ -23,15 +23,15 @@
     var CONFIG = {"hostname":"strint.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":true,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","field":"post","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="有向图 一定不能存在负权边 原因:因为在第一次发现最短距离就将其加入st集合中，已经确定了其距离 举例：无法预知未来有一个负边减少其路径长度 起点为a a到b  l &#x3D; 2; a到c  l &#x3D;3; c到b l  &#x3D;-4; 所以模拟dijkstra()算法 得到的结果:首先确定a,然后a到b是最近的，所以再次确定b&#x3D;2，然后再确定c&#x3D;3 而错误之">
+  <meta name="description" content="dijkstra算法的两种情况">
 <meta property="og:type" content="article">
 <meta property="og:title" content="模拟dijkstra">
 <meta property="og:url" content="http://strint.top/2022/07/22/2022072201/index.html">
 <meta property="og:site_name" content="TanAn">
-<meta property="og:description" content="有向图 一定不能存在负权边 原因:因为在第一次发现最短距离就将其加入st集合中，已经确定了其距离 举例：无法预知未来有一个负边减少其路径长度 起点为a a到b  l &#x3D; 2; a到c  l &#x3D;3; c到b l  &#x3D;-4; 所以模拟dijkstra()算法 得到的结果:首先确定a,然后a到b是最近的，所以再次确定b&#x3D;2，然后再确定c&#x3D;3 而错误之">
+<meta property="og:description" content="dijkstra算法的两种情况">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-07-22T04:09:05.834Z">
-<meta property="article:modified_time" content="2022-07-22T04:13:25.437Z">
+<meta property="article:modified_time" content="2022-07-22T07:49:36.599Z">
 <meta property="article:author" content="TanAn">
 <meta property="article:tag" content="算法">
 <meta name="twitter:card" content="summary">
@@ -223,7 +223,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-07-22 12:09:05 / 修改时间：12:13:25" itemprop="dateCreated datePublished" datetime="2022-07-22T12:09:05+08:00">2022-07-22</time>
+              <time title="创建时间：2022-07-22 12:09:05 / 修改时间：15:49:36" itemprop="dateCreated datePublished" datetime="2022-07-22T12:09:05+08:00">2022-07-22</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -267,7 +267,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <span id="more"></span>
+        <p>dijkstra算法的两种情况</p>
+<span id="more"></span>
+
+
 <blockquote>
 <p>有向图</p>
 <p>一定不能存在负权边</p>
@@ -459,9 +462,6 @@
       Links
     </div>
     <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="https://fishc.com.cn/" title="https:&#x2F;&#x2F;fishc.com.cn" rel="noopener" target="_blank">鱼C论坛</a>
-        </li>
         <li class="links-of-blogroll-item">
           <a href="https://icons8.com/" title="https:&#x2F;&#x2F;icons8.com" rel="noopener" target="_blank">ICONS8</a>
         </li>
