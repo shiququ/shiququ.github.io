@@ -196,13 +196,32 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 4 篇日志。 继续努力。</span>
+        <span class="collection-header">嗯..! 目前共计 5 篇日志。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2022</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2022-07-23T13:52:39+08:00"
+              content="2022-07-23">
+          07-23
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a href="https://coolshell.cn/articles/19464.html" class="post-title-link post-title-link-external" itemprop="url" rel="noopener" target="_blank">如何超过大多数人<i class="fa fa-external-link-alt"></i></a>
+        
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -357,7 +376,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -467,10 +486,9 @@ $(document).ready(function() {
 </script>
 <br/><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 <script>
-    var now = new Date();
     function createtime() {
+        var now = new Date();
         var grt= new Date("2022/07/20 17:38:00");//在此处修改你的建站时间
-        now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
         if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
@@ -480,7 +498,7 @@ $(document).ready(function() {
         document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
     }
-setInterval("createtime()",250);
+setInterval("createtime()",1000);
 </script>
 
 

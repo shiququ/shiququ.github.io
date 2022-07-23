@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何超过大多数人</title>
+      <link href="/2022/07/23/2022072302/"/>
+      <url>/2022/07/23/2022072302/</url>
+      
+        <content type="html"><![CDATA[<p>Hexo博客不蒜子和live2d看板娘冲突问题解决方案<br>文章字数: 268字   |   阅读时长: 1分<br>2020-06-13<br>问题描述<br>  在已经使用不蒜子插件实现流量统计的Hexo博客中对页面进一步美化时，加入live2d看板娘导致不蒜子失效。实践发现启动live2d插件功能时（即配置文件中enable: true），不蒜子失效，关闭插件（enable: false），不蒜子功能正常。<br>  分别对不蒜子功能正常和非正常状态下的页面代码进行分析，发现不蒜子失效时的代码中显示style&#x3D;”display: none;”，正常状态下是style&#x3D;”display: inline;”，如下图：</p><p>正常代码：</p><p>不正常代码：</p><p>原因<br>  暂时不清楚</p><p>解决方案<br>方案一：（实测成功解决）<br>  将流量统计相关代码的外层<span>删除即可正常显示，如图：<br>原来代码：</p><p>修改后代码：</p><p>方案二：（实测未解决）<br>  来自大佬的方案：解决live2d看板娘和busuanzi不蒜子计数冲突</p><p>参考文献<br>hexo博客pure主题解决不蒜子计数不显示的问题</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转载 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 尚方宝剑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于Redis在windows上运行及fork函数问题</title>
       <link href="/2022/07/23/2022072301/"/>
       <url>/2022/07/23/2022072301/</url>

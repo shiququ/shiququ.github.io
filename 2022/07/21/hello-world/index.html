@@ -415,7 +415,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -525,10 +525,9 @@ $(document).ready(function() {
 </script>
 <br/><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 <script>
-    var now = new Date();
     function createtime() {
+        var now = new Date();
         var grt= new Date("2022/07/20 17:38:00");//在此处修改你的建站时间
-        now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
         if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
@@ -538,7 +537,7 @@ $(document).ready(function() {
         document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
     }
-setInterval("createtime()",250);
+setInterval("createtime()",1000);
 </script>
 
 
