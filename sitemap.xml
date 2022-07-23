@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shiququ.github.io/2022/07/24/2022072401/</loc>
-    
-    <lastmod>2022-07-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shiququ.github.io/2022/07/21/hello-world/</loc>
+    <loc>https://shiququ.github.io/2022/07/22/2022072201/</loc>
     
     <lastmod>2022-07-23</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://shiququ.github.io/2022/07/22/2022072201/</loc>
+    <loc>https://shiququ.github.io/2022/07/24/2022072401/</loc>
+    
+    <lastmod>2022-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiququ.github.io/2022/07/21/hello-world/</loc>
     
     <lastmod>2022-07-23</lastmod>
     
@@ -101,6 +101,13 @@
 
   
   <url>
+    <loc>https://shiququ.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2022-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shiququ.github.io/tags/Redis/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -109,13 +116,6 @@
   
   <url>
     <loc>https://shiququ.github.io/tags/C/</loc>
-    <lastmod>2022-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shiququ.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -131,14 +131,14 @@
 
   
   <url>
-    <loc>https://shiququ.github.io/categories/Redis/</loc>
+    <loc>https://shiququ.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shiququ.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://shiququ.github.io/categories/Redis/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
