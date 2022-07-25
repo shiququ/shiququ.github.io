@@ -9,10 +9,10 @@ https://shiququ.github.io/archives/index.html
 https://shiququ.github.io/about/index.html
 https://shiququ.github.io/lib/pace/README.html
 https://shiququ.github.io/
-https://shiququ.github.io/tags/%E5%B0%9A%E6%96%B9%E5%AE%9D%E5%89%91/
 https://shiququ.github.io/tags/%E7%AE%97%E6%B3%95/
+https://shiququ.github.io/tags/%E5%B0%9A%E6%96%B9%E5%AE%9D%E5%89%91/
 https://shiququ.github.io/tags/Redis/
 https://shiququ.github.io/tags/C/
-https://shiququ.github.io/categories/%E8%BD%AC%E8%BD%BD/
 https://shiququ.github.io/categories/%E7%AE%97%E6%B3%95/
+https://shiququ.github.io/categories/%E8%BD%AC%E8%BD%BD/
 https://shiququ.github.io/categories/Redis/
