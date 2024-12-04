@@ -2,11 +2,6 @@
 <search>
   <entry>
     <title>My New Post</title>
-    <url>/2024/12/04/My-New-Post/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>My New Post</title>
     <url>/2024/12/04/My-New-Post-1/</url>
     <content><![CDATA[]]></content>
   </entry>
@@ -27,5 +22,10 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>My New Post</title>
+    <url>/2024/12/04/My-New-Post/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
